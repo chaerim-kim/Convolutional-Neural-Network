@@ -33,7 +33,7 @@ November 2019 - December 2019
 
 
 ### 2. The Neural Network Architecture
-<p align="center"><img src="https://user-images.githubusercontent.com/33334078/73648658-eed0ca00-4675-11ea-9cf3-69b6f8fa4f84.png" height="40%" width="40%"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/33334078/73648658-eed0ca00-4675-11ea-9cf3-69b6f8fa4f84.png" height="50%" width="50%"/></p>
 
 In the first part of the model, it **extracts the features using convolutional filters**. This is done in the **Conv2D, MaxPooling2D and Dropout layers**, as it can be seen in the figure above.
 
