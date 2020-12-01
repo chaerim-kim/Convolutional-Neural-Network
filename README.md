@@ -33,15 +33,14 @@ November 2019 - December 2019
 
 
 ### 2. The Neural Network Architecture
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/33334078/73648658-eed0ca00-4675-11ea-9cf3-69b6f8fa4f84.png" height="40%"" width="40%/>
-</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/33334078/73648658-eed0ca00-4675-11ea-9cf3-69b6f8fa4f84.png" height="40%" width="40%"/></p>
 
 In the first part of the model, it **extracts the features using convolutional filters**. This is done in the **Conv2D, MaxPooling2D and Dropout layers**, as it can be seen in the figure above.
 
 The second part of the model **performs the classification**, where it maps the identifies features to a specific class, which in this architecture, is done in **two dense layers.**
 
 In between these layers are the **Flatten layer**, which has no effect on the input size, but **makes it a one single layer.**
+
 
 
 #### Training & Validation graph
