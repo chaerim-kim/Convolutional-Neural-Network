@@ -19,7 +19,9 @@ November 2019 - December 2019
 ## 💡 Result
 
 ### 1. Effect of a Learning Rate
-**Learning rate**, a hyper-parameter, controls how much we are adjusting the weights of our network. Higher learning rate may fail to converge as gradient descent can overshoot the minimum, but small learning rate can take too long to converge. However, it is more resistant to noise and inaccuracies. Hence, finding a moderate learning rate is desirable.
+**Learning rate**, a hyper-parameter, controls how much we are adjusting the weights of our network.
+- **High learning rate** may fail to converge as gradient descent can overshoot the minimum
+- On the other hand, **small learning rate** can take too long to converge, but is more resistant to noise and inaccuracies. Hence, finding a moderate learning rate is desirable.
 
 **Most appropriate learning rate= 0.001**
 <p align="center">
@@ -32,22 +34,22 @@ November 2019 - December 2019
 
 ### 2. The Neural Network Architecture
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33334078/100752187-a0be5b80-342b-11eb-92ad-23d3148ae806.png"/>
-</p>
-
-The final model generally achieves a good fit, with both accuracy and loss curves converging (figure above). The graph suggests that the model has the ability to generalize and classify unseen data correctly.
-
-### Final Architecture
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/33334078/73648658-eed0ca00-4675-11ea-9cf3-69b6f8fa4f84.png" width="80%"/>
+  <img src="https://user-images.githubusercontent.com/33334078/73648658-eed0ca00-4675-11ea-9cf3-69b6f8fa4f84.png" height="40%"" width="40%/>
 </p>
 
 In the first part of the model, it **extracts the features using convolutional filters**. This is done in the **Conv2D, MaxPooling2D and Dropout layers**, as it can be seen in the figure above.
 
-The second part of the model **performs the classification**, where it maps the identifies features to a specific class, which in this architecture, is done in **two dense layers.** 
+The second part of the model **performs the classification**, where it maps the identifies features to a specific class, which in this architecture, is done in **two dense layers.**
 
 In between these layers are the **Flatten layer**, which has no effect on the input size, but **makes it a one single layer.**
 
+
+#### Training & Validation graph
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33334078/100752187-a0be5b80-342b-11eb-92ad-23d3148ae806.png"/>
+</p>
+
+The final model generally achieves a good fit, with both accuracy and loss curves converging (figure above). The graph suggests that the model has the ability to generalize and classify unseen data correctly.
 
 
 
